@@ -1,0 +1,22 @@
+3 leds:
+One for power through 12v jack barrel 
+One for power through USB
+One for data transfer through USBASP
+
+Double row right angle female pin header for the modules' terminals (To allow the size of some modules to be small as needed).
+Single row straight female pin header for the user generic ports (To allow the user to access any pin in any ports easily using jumper wires). (4 x 8 pin headers one for each port)
+
+Single row straight female pin header for general purpose power output (4 pin pin header) (Vin - 5V - 3.3V - GND).
+
+
+
+Power circuit:
+
+
+
+MCU circuit:
+
+
+
+USBASP circuit:
+
