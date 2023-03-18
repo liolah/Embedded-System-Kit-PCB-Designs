@@ -1,4 +1,4 @@
-# Writing all output to: C:\Users\hesha\Desktop\GP DOC\Embedded-System-Kit-PCB-Designs\Push button module\Push button module.log
+# Writing all output to: C:\Users\hesha\Desktop\GP DOC\Embedded-System-Kit-PCB-Designs\RGB LED module\RGB LED module V1.1.log
 set pad_wire_necking on
 bus diagonal
 fanout 20
