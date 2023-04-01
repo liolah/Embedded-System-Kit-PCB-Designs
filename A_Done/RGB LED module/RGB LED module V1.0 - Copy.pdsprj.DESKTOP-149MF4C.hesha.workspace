@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <WORKSPACE>
  <FRAME activewindow="2">
-  <PLACEMENT>2c00000002000000020000000083ffff0083ffffffffffffffffffff000000000d0000001d060000fc030000</PLACEMENT>
+  <PLACEMENT>2c00000002000000020000000083ffff0083ffffffffffffffffffff48010000170000006507000006040000</PLACEMENT>
   <WINDOW type="default" module="ISIS">
    <editor metric="0" gridmajor="25400000" mode="00000000" zoom="-1" scale="56" flipped="0" gridminor="508000" gridmode="32" snapidx="2" snap="254000" xcursor="0" orgmode="0" snaprange="226785">
     <world y1="-19050000" x1="-26670000" y2="19050000" x2="26670000"/>
@@ -10,7 +10,7 @@
    </editor>
   </WINDOW>
   <WINDOW type="default" module="ARES">
-   <editor metric="1" gridmajor="10000000" mode="00000000" zoom="-1" scale="178" flipped="0" gridminor="200000" gridmode="32" snapidx="1" snap="100000" xcursor="0" orgmode="0" snaprange="71348">
+   <editor metric="1" gridmajor="10000000" mode="00000000" zoom="-1" scale="179" flipped="0" gridminor="200000" gridmode="32" snapidx="1" snap="100000" xcursor="0" orgmode="0" snaprange="70949">
     <world y1="-12700000" x1="-15240000" y2="12700000" x2="15240000"/>
     <centre x="10500000" y="2000000"/>
     <origin x="0" y="0"/>
@@ -18,14 +18,14 @@
   </WINDOW>
   <WINDOW type="VIEW3D" module="VIEW3D">
    <camera>
-    <position x="13774214" y="2174957" z="12497269"/>
-    <focus x="13774214" y="2174957" z="0"/>
+    <position x="14399063" y="2549867" z="12497269"/>
+    <focus x="14399063" y="2549867" z="0"/>
     <up x="0" y="1000000" z="0"/>
    </camera>
   </WINDOW>
  </FRAME>
  <MODULE name="ARES">
-  <editor metric="1" gridmajor="10000000" mode="00000000" zoom="-1" scale="178" flipped="0" gridminor="200000" gridmode="32" snapidx="1" snap="100000" xcursor="0" orgmode="0" snaprange="71348">
+  <editor metric="1" gridmajor="10000000" mode="00000000" zoom="-1" scale="179" flipped="0" gridminor="200000" gridmode="32" snapidx="1" snap="100000" xcursor="0" orgmode="0" snaprange="70949">
    <world y1="-12700000" x1="-15240000" y2="12700000" x2="15240000"/>
    <centre x="10500000" y="2000000"/>
    <origin x="0" y="0"/>

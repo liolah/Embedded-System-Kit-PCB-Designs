@@ -568,13 +568,6 @@
    )
    (pins J1-10 J1-11 J2-3 Q1-1 U9-0 U9-5 U11-9 U10-3 RV1-1 R12-1 R11-0)
   )
-  (net "PIN 0"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via $VIA_SIGNAL)
-   )
-   (pins J1-3 U1-0 R1-0)
-  )
   (net "PIN 1"
    (circuit
     (use_layer TOP BOT)
@@ -617,6 +610,13 @@
    )
    (pins J1-6 U7-0 R7-0)
   )
+  (net "PIN 7"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins J1-8 U8-0 R8-0)
+  )
   (net "PULL_U/D"
    (circuit
     (use_layer TOP BOT)
@@ -636,7 +636,7 @@
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
-   (pins J1-8 U8-0 U11-8 U11-17 R8-0)
+   (pins J1-3 U1-0 U11-8 U11-17 R1-0)
   )
   (net "VCC/GND"
    (circuit
@@ -676,13 +676,13 @@
    "#00068"
    "#00069"
    "#00082"
-   "PIN 0"
    "PIN 1"
    "PIN 2"
    "PIN 3"
    "PIN 4"
    "PIN 5"
    "PIN 6"
+   "PIN 7"
    "PULL_U/D"
    "SENSOR_OUT"
    "SENSOR_SIGNAL"
@@ -704,7 +704,7 @@
  )
  (wiring
   (via PS1 5.00000 4.00000 (net "GND") (type protect))
-  (via PS1 5.00000 26.00000 (net {NC-1}) (type protect))
+  (via PS1 5.00000 26.00000 (net "GND") (type protect))
   (via PS1 195.00000 25.00000 (net "GND") (type protect))
   (via PS1 195.00000 5.00000 (net "GND") (type protect))
  )
