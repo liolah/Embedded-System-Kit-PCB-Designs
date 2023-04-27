@@ -1,0 +1,150 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net 3.3V 
+   (rule
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path TOP 50800  654000 1365000 1000000 1365000)
+    (connect (terminal pin J1-10) (terminal pin J2-5))
+   )
+   (wire (path TOP 50800  400001 1365000 654000 1365000)
+    (connect (terminal pin J1-11) (terminal pin J1-10))
+   )
+   )
+   (Net MISO 
+   (rule
+   )
+   (wire (path BOT 30480  654000 1873000 825500 1873000 825500 2381000
+     1000000 2381000)
+    (connect (terminal pin J1-6) (terminal pin J2-1))
+   )
+   )
+   (Net MOSI 
+   (rule
+   )
+   (wire (path TOP 30480  654000 2127000 1000000 2127000)
+    (connect (terminal pin J1-4) (terminal pin J2-2))
+   )
+   )
+   (Net PB0 
+   (rule
+   )
+   (wire (path BOT 30480  1000000 1619000 825500 1619000 825500 1143000
+     254000 1143000 254000 2380999 400000 2380999)
+    (connect (terminal pin J2-4) (terminal pin J1-3))
+   )
+   )
+   (Net PB1 
+   (rule
+   )
+   )
+   (Net PB2 
+   (rule
+   )
+   )
+   (Net PB3 
+   (rule
+   )
+   )
+   (Net PB4 
+   (rule
+   )
+   )
+   (Net SCK 
+   (rule
+   )
+   (wire (path TOP 30480  654000 1619000 825500 1619000 825500 1873000
+     1000000 1873000)
+    (connect (terminal pin J1-8) (terminal pin J2-3))
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path TOP 50800  400000 2635000 400000 2921000 1000000 2921000
+     1000000 2635000)
+    (connect (terminal pin J1-1) (terminal pin J2-0))
+   )
+   )
+  )
+ )

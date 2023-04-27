@@ -1,0 +1,172 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net 3.3V 
+   (rule
+   )
+   (wire (path TOP 50800  2000000 1746000 1576458 1746000 1576458 2143000
+     654000 2143000)
+    (connect (terminal pin J2-0) (terminal pin J1-0))
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path TOP 50800  654000 873000 3270000 873000 3270000 1746000)
+    (connect (terminal pin J1-10) (terminal pin J2-10))
+   )
+   (wire (path BOT 50800  3270000 1746000 3270000 2000000)
+    (connect (terminal pin J2-10) (terminal pin J2-11))
+   )
+   (wire (path TOP 50800  400001 873000 654000 873000)
+    (connect (terminal pin J1-11) (terminal pin J1-10))
+   )
+   )
+   (Net PC0 
+   (rule
+   )
+   (wire (path BOT 30480  2254000 2000000 2254000 2476500 190500 2476500
+     190500 1888999 400000 1888999)
+    (connect (terminal pin J2-3) (terminal pin J1-3))
+   )
+   )
+   (Net PC1 
+   (rule
+   )
+   (wire (path TOP 30480  2508000 2000000 2508000 2476500 190500 2476500
+     190500 1634999 400000 1634999)
+    (connect (terminal pin J2-5) (terminal pin J1-5))
+   )
+   )
+   (Net PC2 
+   (rule
+   )
+   (wire (path TOP 30480  2762000 2000000 2762000 2159000 3556000 2159000
+     3556000 571500 190500 571500 190500 1381000 400000 1381000)
+    (connect (terminal pin J2-7) (terminal pin J1-7))
+   )
+   )
+   (Net PC3 
+   (rule
+   )
+   (wire (path BOT 30480  3016000 2000000 3016000 2159000 3556000 2159000
+     3556000 571500 190500 571500 190500 1127000 400001 1127000)
+    (connect (terminal pin J2-9) (terminal pin J1-9))
+   )
+   )
+   (Net PC4 
+   (rule
+   )
+   (wire (path TOP 30480  2254000 1746000 2254000 1524000 1137531 1524000
+     1137531 1889000 654000 1889000)
+    (connect (terminal pin J2-2) (terminal pin J1-2))
+   )
+   )
+   (Net PC5 
+   (rule
+   )
+   (wire (path BOT 30480  2508000 1746000 2508000 1460500 1267588 1460500
+     1267588 1635000 654000 1635000)
+    (connect (terminal pin J2-4) (terminal pin J1-4))
+   )
+   )
+   (Net PC6 
+   (rule
+   )
+   (wire (path TOP 30480  2762000 1746000 2762000 1381000 654000 1381000)
+    (connect (terminal pin J2-6) (terminal pin J1-6))
+   )
+   )
+   (Net PC7 
+   (rule
+   )
+   (wire (path TOP 30480  3016000 1746000 3016000 1127000 654000 1127000)
+    (connect (terminal pin J2-8) (terminal pin J1-8))
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path TOP 50800  2000000 2000000 2000000 2349500 400000 2349500
+     400000 2143000)
+    (connect (terminal pin J2-1) (terminal pin J1-1))
+   )
+   )
+  )
+ )
