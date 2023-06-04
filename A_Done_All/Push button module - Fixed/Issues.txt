@@ -1,0 +1,2 @@
+A blue led indicator was added for the ir sensor.
+And a pull up resistor for ir sensor buffer output in the pull up mode.

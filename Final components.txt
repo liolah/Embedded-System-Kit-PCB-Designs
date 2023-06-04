@@ -1,0 +1,10 @@
+5.6k res
+2.7k res
+2.2k res
+10k res
+female double row right angle pin header
+6 p channel mosfets
+2 atmega32a
+1 atmega8
+5 ams 5v
+1 ams 3.3v

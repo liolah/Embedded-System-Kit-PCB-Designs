@@ -1,0 +1,2 @@
+The ULN2803a must always be connected to the ground.
+To control the general brightness use a p channel mosfet before the colors channels.
